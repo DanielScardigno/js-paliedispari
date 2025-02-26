@@ -15,11 +15,11 @@ console.log(messaggio);
 //Funzione
 function ELaParolaPalindroma(word) {
     const letters = [];
-    for (let i = 0; i < userWord.length; i++) {
+    for (let i = 0; i < word.length; i++) {
         letters.push(word[i]);
     }
     const reverseWord = letters.reverse();
-    if (reverseWord.join("") === userWord) {
+    if (reverseWord.join("") === word) {
         return true;
     } else {
         return false;
